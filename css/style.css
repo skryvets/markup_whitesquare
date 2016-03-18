@@ -120,14 +120,14 @@ aside > h2 {
     margin: 30px 0 0 0;
 }
 
-aside > p{
+aside > p {
     background: #f3f3f3;
     border: 1px solid #e7e7e7;
     padding: 10px;
     margin: 0;
 }
 
-blockquote{
+blockquote {
     margin: 0;
     background: #29c5e6;
     padding: 10px 20px;
@@ -135,13 +135,14 @@ blockquote{
     font-weight: 300;
 }
 
-blockquote p{
+blockquote p {
     color: #ffffff;
     font-style: italic;
     font-size: 33px;
     margin: 0;
 }
-blockquote cite{
+
+blockquote cite {
     display: block;
     font-size: 20px;
     font-style: normal;
@@ -150,3 +151,59 @@ blockquote cite{
     text-align: right;
 }
 
+figure {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+figure img {
+    display: block;
+    border: 1px solid #ffffff;
+    outline: 1px solid #c9c9c9;
+}
+
+figure figcaption {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+figure figcaption span {
+    display: block;
+    font-size: 14px;
+    color: #29c5e6;
+}
+
+section > figure + figure {
+    margin-left: 28px;
+}
+
+section > h2 {
+    background: #29c5e6;
+    font: 30px 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 10px;
+    margin: 30px 0 0 0;
+}
+
+figure figcaption {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+figure div {
+    font-size: 14px;
+    color: #29c5e6;
+}
+
+.team-row figure {
+    margin-top: 20px;
+}
+
+.team-row figure + figure {
+    margin-left: 43px;
+}

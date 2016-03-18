@@ -114,6 +114,7 @@ section {
 
 .aside-menu{
     padding-left: 12px;
+    text-transform: uppercase;
 }
 .aside-menu li {
     font-weight: 300;

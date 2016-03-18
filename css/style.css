@@ -51,26 +51,38 @@ nav a {
 nav ul {
     margin: 0;
     padding: 0;
+    background: #f3f3f3;
 }
 
 nav li {
     list-style-position: inside;
     font: 14px 'Oswald', sans-serif;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .top-menu li {
     display: inline-block;
-    padding: 10px 30px;
-    margin: 0;
 }
 
 .top-menu li.active {
     background: #29c5e6;
+    padding: 10px 30px;
+    margin: 0;
+    color: #ffffff;
 }
 
 .top-menu a {
     color: #b2b2b2;
+}
+
+.top-menu li a {
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.top-menu li a:hover {
+    background: #29c5e6;
+    color: #ffffff;
 }
 
 #heading {

@@ -65,10 +65,8 @@ nav li {
 }
 
 .top-menu li.active {
-    background: #29c5e6;
-    padding: 10px 30px;
-    margin: 0;
     color: #ffffff;
+    background: #29c5e6;
 }
 
 .top-menu a {
@@ -78,6 +76,10 @@ nav li {
 .top-menu li a {
     padding: 10px 30px;
     margin: 0;
+}
+
+.top-menu a.active {
+    color: #ffffff;
 }
 
 .top-menu li a:hover {
@@ -110,6 +112,9 @@ section {
     padding-bottom: 50px;
 }
 
+.aside-menu{
+    padding-left: 12px;
+}
 .aside-menu li {
     font-weight: 300;
     list-style-type: square;

@@ -1,4 +1,7 @@
-# Developed HTML + CSS for the attached mockup. #
+Developed HTML + CSS for the attached mockup. 
+
+You can see finished template [here](http://server.sergeome.com/portfolio/whitesquare/).
+
 
 
 

@@ -1,0 +1,44 @@
+<i class="sprite sprite-Flickr"></i>
+<i class="sprite sprite-Instagram"></i>
+<i class="sprite sprite-RSS"></i>
+<i class="sprite sprite-Vimeo"></i>
+<i class="sprite sprite-Youtube"></i>
+
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Flickr {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-Instagram {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.sprite-RSS {
+    width: 16px;
+    height: 16px;
+    background-position: -57px -5px;
+}
+
+.sprite-Vimeo {
+    width: 16px;
+    height: 16px;
+    background-position: -83px -5px;
+}
+
+.sprite-Youtube {
+    width: 16px;
+    height: 16px;
+    background-position: -109px -5px;
+}
+
+

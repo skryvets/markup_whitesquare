@@ -1,0 +1,28 @@
+<i class="sprite sprite-Facebook"></i>
+<i class="sprite sprite-Google_"></i>
+<i class="sprite sprite-Twitter"></i>
+
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Facebook {
+    width: 30px;
+    height: 31px;
+    background-position: -5px -5px;
+}
+
+.sprite-Google_ {
+    width: 30px;
+    height: 31px;
+    background-position: -45px -5px;
+}
+
+.sprite-Twitter {
+    width: 30px;
+    height: 31px;
+    background-position: -85px -5px;
+}
